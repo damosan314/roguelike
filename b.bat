@@ -1,9 +1,10 @@
 
 @echo off
 
-del build\AUTORUN.SYS
-del build\*.DAT
-del rl2.xex
+
+mkdir build
+mkdir build2
+mkdir build3
 
 echo Building makefont...
 mos-a800xl-clang -Oz -Iheader -Isrc -o makefont.xex src\makefont.c src\atari.c src\cio.s
