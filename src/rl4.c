@@ -684,10 +684,6 @@ int main( void ) {
 	atari_init();
 	_initVBI();
 
-	while( true ) {
-		_soundTest();
-	}
-
 playAgain:
 
     COLOR1  = 0x08;
